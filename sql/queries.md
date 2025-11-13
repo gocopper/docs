@@ -5,7 +5,7 @@
 By convention, all database queries are wrapped in a Queries layer that can be generated using the Copper CLI -
 
 ```bash
-$ copper scaffold:queries rockets
+copper scaffold:queries rockets
 ```
 
 {% code title="pkg/rockets/queries.go" %}

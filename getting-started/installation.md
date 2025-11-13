@@ -3,13 +3,13 @@
 #### Install Copper CLI
 
 ```bash
-$ go install github.com/gocopper/cli/cmd/copper@latest
+go install github.com/gocopper/cli/cmd/copper@latest
 ```
 
 Ensure your copper installation works correctly
 
 ```bash
-$ copper -h
+copper -h
 ```
 
 #### Troubleshoot

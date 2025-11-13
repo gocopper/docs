@@ -17,7 +17,7 @@ By default, Copper provides `pkg/app/router.go`. Create more routers as your pro
 Add a router to a package using the Copper CLI -
 
 ```
-$ copper scaffold:router <package>
+copper scaffold:router <package>
 ```
 
 #### Create Routes
