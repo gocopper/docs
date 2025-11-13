@@ -1,6 +1,6 @@
 # Routing
 
-#### Routers
+### Routers
 
 Routers are simple Go structs that implement the `chttp.Router` interface. Routers can be used to define and group together HTTP routes.
 
@@ -20,19 +20,8 @@ Add a router to a package using the Copper CLI -
 copper scaffold:router <package>
 ```
 
-#### Create Routes
 
-In a package with an existing Router, you can add a route to it using the Copper CLI -
-
-```bash
-copper scaffold:route \
-    -handler=HandleRocketLaunch \
-    -path=/rockets/{id}/launch \
-    -method=Post \
-    <package>
-```
-
-#### Sample Router
+### Sample Router
 
 {% code title="pkg/rockets/router.go" %}
 ```go
