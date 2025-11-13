@@ -41,7 +41,7 @@ package rockets
 import (..)
 
 type NewRouterParams struct {
-	RW     *chttp.ReaderWriter
+	RW     *chttp.JSONReaderWriter
 	Logger clogger.Logger
 }
 
@@ -55,7 +55,7 @@ func NewRouter(p NewRouterParams) *Router {
 // Router struct implements the `chttp.Router` interface. It holds all the
 // dependencies needed for its handlers.
 type Router struct {
-	rw     *chttp.ReaderWriter
+	rw     *chttp.JSONReaderWriter
 	logger clogger.Logger
 }
 
