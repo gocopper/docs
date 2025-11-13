@@ -20,16 +20,16 @@ copper create -frontend=<option> -storage=<option> github.com/yourname/app
 
 ### -frontend
 
-| Option | Description |
-| --- | --- |
+| Option                    | Description           |
+| ------------------------- | --------------------- |
 | `inertia:react` (default) | React with Inertia.js |
-| `none` | API-only |
+| `none`                    | API-only              |
 
 ### -storage
 
-| Option | Description |
-| --- | --- |
-| `postgres` (default) | PostgreSQL |
-| `sqlite3` | SQLite |
-| `mysql` | MySQL |
-| `none` | No database |
+| Option               |
+| -------------------- |
+| `postgres` (default) |
+| `sqlite3`            |
+| `mysql`              |
+| `none`               |
