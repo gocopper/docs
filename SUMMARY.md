@@ -5,12 +5,7 @@
 ## Getting Started
 
 * [Installation](getting-started/installation.md)
-* [Create Project](getting-started/create-project/README.md)
-  * [Go Templates](getting-started/create-project/go-templates.md)
-  * [Tailwind](getting-started/create-project/tailwind.md)
-  * [React](getting-started/create-project/react.md)
-  * [React + Tailwind](getting-started/create-project/react-+-tailwind.md)
-  * [REST API](getting-started/create-project/rest-api.md)
+* [Create Project](getting-started/create-project.md)
 
 ## Guides
 
