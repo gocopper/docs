@@ -2,7 +2,7 @@
 
 Create your first Copper project
 
-## Quick Start
+### Quick Start
 
 ```bash
 copper create github.com/yourname/myapp
@@ -12,7 +12,7 @@ copper run -watch
 
 Creates a full-stack app with React and PostgreSQL at [http://localhost:5901](http://localhost:5901)
 
-## Options
+### Options
 
 Customize your project template with `-frontend` and `-storage` flags:
 
@@ -20,12 +20,12 @@ Customize your project template with `-frontend` and `-storage` flags:
 copper create -frontend=<option> -storage=<option> github.com/yourname/app
 ```
 
-### -frontend
+#### -frontend
 
 - `inertia:react` (default) - React with Inertia.js
 - `none` - API-only, no frontend
 
-### -storage
+#### -storage
 
 - `postgres` (default) - PostgreSQL database
 - `sqlite3` - SQLite database
