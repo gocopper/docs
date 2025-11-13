@@ -7,11 +7,6 @@
 * [Installation](getting-started/installation.md)
 * [Create Project](getting-started/create-project.md)
 
-## Guides
-
-* [HackerNews Clone](guides/hackernews-clone.md)
-* [Deploy with Fly.io](guides/deploy-with-fly.io.md)
-
 ## The Basics
 
 * [Directory Structure](the-basics/directory-structure.md)
