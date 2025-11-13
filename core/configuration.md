@@ -4,7 +4,7 @@ Copper provides the `cconfig` package that helps read hierarchical TOML files in
 
 You are encouraged to extend and customize the structure of the `./config` directory as needed for your project.
 
-#### Extensible TOML Files
+### Extensible TOML Files
 
 The configurations are defined in simple TOML files that support a special `extends` key:
 
@@ -24,7 +24,7 @@ In the example above, the `dev.toml` file defines a top-level `extends` key whic
 Do not use top-level configuration values. Remember to group all values under a section so they can be loaded per package without needing a "global" app config.
 {% endhint %}
 
-#### Read Configuration
+### Read Configuration
 
 You can read a config section using `cconfig.Loader#Load`. The values are loaded into a destination Go struct. The config loader accounts for the hierarchy of all TOML files that use `extends`.
 

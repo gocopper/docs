@@ -10,7 +10,7 @@ type Middleware interface {
 
 If you have a simple function, you can use the `chttp.HandleMiddleware` function to create a middleware out of it.
 
-#### Request Logger Middleware
+### Request Logger Middleware
 
 This is an example middleware that logs each incoming HTTP request.
 
@@ -35,7 +35,7 @@ func (mw *RequestLoggerMiddleware) Handle(next http.Handler) http.Handler {
 }
 ```
 
-#### Route Middlewares
+### Route Middlewares
 
 The `chttp.Route` struct accepts a list of middlewares that will be executed, in order, for each request that matches the route.
 
@@ -52,7 +52,7 @@ func (ro *Router) Routes() []chttp.Route {
 }
 ```
 
-#### Global Middlewares
+### Global Middlewares
 
 In `pkg/app/handler.go`, you can pass a list of middlewares to the `chttp.NewHandler` function. These middlewares will be executed on all requests handled by this handler.
 

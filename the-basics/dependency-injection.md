@@ -8,7 +8,7 @@ In a Copper project, each package has a `wire.go` file. This file is autogenerat
 copper scaffold:pkg <package>
 ```
 
-#### Example
+### Example
 
 Let's say you have the following struct that requires `rockets.Queries` and `clogger.Logger` for its methods.
 

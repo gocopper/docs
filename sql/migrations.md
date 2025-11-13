@@ -1,12 +1,12 @@
 # Migrations
 
-#### Running Migrations
+### Running Migrations
 
 When developing locally, use `copper run` to run database migrations before starting the app server. You can disable this behavior with `copper run -migrate=false`.
 
 To run migrations in production, use the `migrate` binary built by `copper build`. This binary can be run with `prod.toml` configuration on your server.
 
-#### New Migrations
+### New Migrations
 
 Migrations are stored in the `migrations/` directory found at the root of the project. By default, it already has `0001_initial.sql` in it that looks similar to -
 

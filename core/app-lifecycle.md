@@ -4,7 +4,7 @@ Copper provides an "App Container" that runs your application code. This contain
 
 The `copper.App` struct, returned by `copper.New()` contains a pre-configured [logger](logging.md), [configuration loader](configuration.md), and the app lifecycle manager - that you can use to add custom logic on app startup & shutdown.
 
-#### Cleanup Code
+### Cleanup Code
 
 To run cleanup code when your app is shutting down, register the function using the app lifecycle -
 

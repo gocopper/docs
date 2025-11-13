@@ -1,6 +1,6 @@
 # Queries
 
-#### Queries
+### Queries
 
 By convention, all database queries are wrapped in a Queries layer that can be generated using the Copper CLI -
 
@@ -24,7 +24,7 @@ type Queries struct {
 ```
 {% endcode %}
 
-#### Querier
+### Querier
 
 The auto-generated `Queries` struct has a dependency on `csql.Querier`. Querier allows you to run queries safely on your database and scan results into Go structs and slices with very little boilerplate.
 
@@ -69,7 +69,7 @@ func (q *Queries) DeleteRocketByID(ctx context.Context, id string) error {
 }
 ```
 
-#### Transaction Middleware
+### Transaction Middleware
 
 The `csql.TxMiddleware` can be used to wrap every HTTP request in a database transaction. The transaction is automatically committed if the response code from the handler is success-like (i.e. 100-399) or rolled back for any other status code or even panics.
 
