@@ -14,22 +14,20 @@ Creates a full-stack app with React and PostgreSQL at [http://localhost:5901](ht
 
 ## Options
 
+Customize your project template with `-frontend` and `-storage` flags:
+
 ```bash
 copper create -frontend=<option> -storage=<option> github.com/yourname/app
 ```
 
 ### -frontend
 
-| Option                    | Description           |
-| ------------------------- | --------------------- |
-| `inertia:react` (default) | React with Inertia.js |
-| `none`                    | API-only              |
+- `inertia:react` (default) - React with Inertia.js
+- `none` - API-only, no frontend
 
 ### -storage
 
-| Option               |
-| -------------------- |
-| `postgres` (default) |
-| `sqlite3`            |
-| `mysql`              |
-| `none`               |
+- `postgres` (default) - PostgreSQL database
+- `sqlite3` - SQLite database
+- `mysql` - MySQL database
+- `none` - No database
