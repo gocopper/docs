@@ -5,7 +5,7 @@ Copper provides the `cerrors` package that helps add structure and context to yo
 ```go
 err := s.rockets.ThrustEngine(ctx, Engine3)
 if err != nil {
-    return cerrors.New(err, "failed to thrust engine", map[string]interface{}{
+    return cerrors.New(err, "failed to thrust engine", map[string]any{
         "engine": Engine3,
     })
 }

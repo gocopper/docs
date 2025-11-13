@@ -5,7 +5,7 @@ Copper provides the `clogger` package that allows structured logging in both dev
 ```go
 err := s.starships.PropelRocket(ctx, "my-test-rocket")
 if err != nil {
-	s.logger.WithTags(map[string]interface{}{
+	s.logger.WithTags(map[string]any{
 		"rocket": "my-test-rocket",
 	}).Error("Failed to propel rocket", err)
 }

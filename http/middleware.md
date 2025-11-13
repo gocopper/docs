@@ -25,7 +25,7 @@ type RequestLoggerMiddleware struct {
 
 func (mw *RequestLoggerMiddleware) Handle(next http.Handler) http.Handler {
     return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-	mw.logger.WithTags(map[string]interface{}{
+	mw.logger.WithTags(map[string]any{
 		"url": r.URL.Path,
 		"method": r.Method
 	}).Info("Handling HTTP Request..")
