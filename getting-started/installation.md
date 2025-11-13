@@ -1,6 +1,6 @@
 # Installation
 
-#### Install Copper CLI
+### Install Copper CLI
 
 ```bash
 go install github.com/gocopper/cli/cmd/copper@latest
@@ -12,7 +12,7 @@ Ensure your copper installation works correctly
 copper -h
 ```
 
-#### Troubleshoot
+### Troubleshoot
 
 If `copper -h` didn't work, it probably means that `$GOPATH/bin` is not in your `$PATH`. Add the following to `~/.zshrc` or `~/.bashrc` -
 
